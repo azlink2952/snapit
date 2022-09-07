@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+}
+.entirely {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+}
+.anchors li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    margin-top: -17px;
+    float: left;
+    
+}
+.anchors a{
+    text-decoration: none;
+    color: #737373;
+    font-weight: bold;
+    font-family: calibri;
+}
+.hun {
+    margin-top: -15px;
+    margin-left: 860px;
+    display: flex;
+    float: right;
+}
+.fobe li{
+    list-style: none;
+    display: inline;
+    margin-right:30px ;
+}
+.fobe a{
+    text-decoration: none;
+    color: #737373 ;
+    font-weight: bold;
+    font-family: calibri;
+}
+.bond {
+    font-size: 15px;
+    border: #737373 solid;
+    padding: 7px 15px 7px 15px;
+    border-radius: 10px;
+    border-width: 2px;
+}
+.remote-work {
+    float: left;
+}
+.remote {
+    float: left;
+    display: flex;
+    margin-left: 130px;
+    margin-top: 150px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 120px;
+}
+.zone {
+    margin-top: 93px;
+    margin-left: -273px;
+}
+.grove {
+    float: right;
+    margin-right: 1126px;
+    margin-top: -40px;
+    color: #737373;
+    font-family: calibri;
+    font-weight: bold;
+}
+.nde {
+    text-decoration: none;
+    float: left;
+    margin-top: 0px;
+    margin-left: 140px;
+    background-color: black;
+    font-weight: bold;
+    font-family: calibri;
+    color: white;
+    border: black solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 135px;
+}
+.insert li{
+    list-style: none;
+    display: inline;
+    margin-right: 170px;
+    float: left;
+    margin-top: 170px;
+    margin-left: -130px;
+}
+.bring {
+    float: right;
+    display: flex;
+    margin-right: 150px;
+    margin-top: -430px;
+}
