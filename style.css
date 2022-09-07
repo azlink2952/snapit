@@ -30,7 +30,7 @@ body {
 .fobe li{
     list-style: none;
     display: inline;
-    margin-right:30px ;
+    margin-right:25px ;
 }
 .fobe a{
     text-decoration: none;
@@ -96,4 +96,19 @@ body {
     display: flex;
     margin-right: 150px;
     margin-top: -430px;
+}
+@media (max-width: 500px) {
+    body {
+        color: blue;
+    }
+}
+@media (orientation: landscape), (max-width: 500px) {
+    body {
+        color: green;
+    }
+}
+@media (orientation: portrait) {
+    body {
+        color: red;
+    }
 }
