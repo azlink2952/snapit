@@ -133,12 +133,22 @@
         text-align: center;
     }
     .learn-more  {
-       padding-left: 40%;
+       padding-left: 220px;
     }
     .hero-text .h1 {
         width: 100%;
-        font-size: 49px;
+        font-size: 40px;
         align-items: center;
+    }
+    .hero-text .p {
+        width: 100%;
+        font-size: 15px;
+        align-items: center;
+    }
+    .svg {
+        list-style: none;
+        width: 1px;
+        display: inline;
     }
 }
 /*breakpoints
