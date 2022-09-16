@@ -11,6 +11,7 @@
     margin-top: ;
     list-style: none;
     display: flex;
+    border: purple solid;
 }
 .header li{
     list-style: none;
@@ -50,19 +51,23 @@
 }
 .hero-section {
     display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 50px 0;
+    justify-content: space-between;
 }
 .hero-section .hero-text {
-    width: 60%;
+    width: 50%;
     border: 1px solid red;
-    padding-left: 130px;
-    padding-top: 150px;
+    /*padding-left: 130px;
+    padding-top: 150px;*/
 }
 .hero-section .h1 {
-    font-size: 90px;
+    font-size: 6vw;
     font-family: calibri;
     font-weight:bolder;
     line-height: 90%;
-    margin-top: -40px;
+    width: 84%;
 }
 .hero-section .p {
     font-family: calibri;
@@ -72,23 +77,23 @@
     margin-top: 40px;
 }
 .hero-section .hero-image {
-    width: 40%;
-    border: 1px solid green;
+    width: calc(50% - 100px);
 }
 
 .learn-more {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
+    height: 60px;
+    margin-top: 40px;
+}
+.learn-more button {
     background-color: black;
-    /*font-weight: bold;*/
     font-family: calibri;
     color: white;
-    border-radius: 10px;
-    padding: 6px 5px 6px 5px;
-    width: 13%;
-    margin-top: 40px;
-    
+    border-radius: 1px;
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .insert li{
     list-style: none;
@@ -98,27 +103,40 @@
 .svg {
     margin-top: 90px;
 }
+
 @media screen and (max-width: 1024px) {
    
 }
 @media screen and (max-width: 767px) {
-    .hero-section .hero-text{
-        flex-direction: column-reverse;
-        align-self: flex-start;
-        padding-left: 20px;
-    }
-
     .header {
-        flex-wrap: wrap;
-        margin-right: -1000px;
+        display: none;
     }
-    .header-menu {
-        marg
+    .hero-section {
+        flex-direction: column-reverse;
+        padding: 0;
+        
     }
-    .hero-section .h1 {
-        display: inline-flex;
-        font-size: 40px;
-        margin-top: -50px;
+    .hero-section .hero-image {
+        width: 100%;
+    }
+    .hero-section .hero-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .hero-section .hero-text {
+        width: 100%;
+        padding: 20px;
+    }
+    .hero-section .hero-text{
+        
+        text-align: center;
+    }
+    .learn-more  {
+       padding-left: 210px;
+    }
+    .hero-text .h1 {
+        font-size: 49px;
+        padding-left: 55px;
     }
 }
 /*breakpoints
