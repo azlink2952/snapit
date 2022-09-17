@@ -58,7 +58,6 @@
 }
 .hero-section .hero-text {
     width: 50%;
-    border: 1px solid red;
     /*padding-left: 130px;
     padding-top: 150px;*/
 }
@@ -133,7 +132,7 @@
         text-align: center;
     }
     .learn-more  {
-       padding-left: 220px;
+       padding-left: 180px;
     }
     .hero-text .h1 {
         width: 100%;
@@ -150,10 +149,10 @@
         list-style: none;
         display:inline;
     }
-    .insert {
+    .svg .insert {
         align-items: center;
         flex-wrap: wrap-reverse;
-        width: 100vw;
+        width: 100%;
     }
 }
 /*breakpoints
