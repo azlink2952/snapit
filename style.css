@@ -134,6 +134,12 @@
     .learn-more {
         margin-top: 10%;
     }
+    .hero-section .hero-image2 {
+        display: none;
+    }
+    .hero-section .hero-image {
+        display: block;
+    }
 }
 @media screen and (max-width: 767px) {
     .header {
@@ -162,29 +168,46 @@
     }
     .learn-more button {
         display: flex;
-        position:sticky;
         margin: auto;
-    }
-    button {
-        
+        font-size: 20px;
+        margin-top: -5%;
     }
     .hero-text .h1 {
         width: 100%;
-        font-size: 40px;
+        font-size: 70px;
         align-items: center;
         font-family: calibri;
     }
     .hero-text .p {
         width: 100%;
-        font-size: 12px;
+        font-size: 25px;
         font-family: calibri;
         align-items: center;
+        margin-top: 5%;
     }
     .svg {
         list-style: none;
         display:flex:inline-flex;
         align-content: center;
-        margin-top: 20%;
+        margin-top: 5%;
+    }
+    .hero-section .hero-image {
+        display: none;
+    }
+    .hero-section .hero-image2 {
+        display:block;
+        width: 100%;
+        align-content: flex-end;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-section .hero-image2 {
+        display: none;
+    }
+    .hero-section .hero-image {
+        display: block;
     }
 }
 /*breakpoints
