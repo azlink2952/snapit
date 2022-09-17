@@ -174,13 +174,13 @@
     }
     .hero-text .h1 {
         width: 100%;
-        font-size: 70px;
+        font-size: 55px;
         align-items: center;
         font-family: calibri;
     }
     .hero-text .p {
         width: 100%;
-        font-size: 25px;
+        font-size: 20px;
         font-family: calibri;
         align-items: center;
         margin-top: 5%;
