@@ -11,7 +11,6 @@
     margin-top: ;
     list-style: none;
     display: flex;
-    border: purple solid;
 }
 .header li{
     list-style: none;
@@ -103,8 +102,38 @@
     margin-top: 90px;
 }
 
-@media screen and (max-width: 1024px) {
-   
+@media screen and (max-width: 1279px) {
+    .logo {
+        margin-right: 40px;
+    }
+    .header {
+        justify-content: flex-start;
+        margin-right: 10%;
+        display:inline-flexbox;
+        width: 100%;
+        justify-content: flex-start;
+        
+    }
+    .header-menu{
+            margin-left: 40%;
+    }
+    .svg {
+        display: flexbox;
+        align-content: center;
+        margin-top: 30%;
+    }
+    .hero-text .h1 {
+        width: 85%;
+        font-size: 5.6vw;
+        font-weight: bolder;
+        font-family: arial;
+    }
+    .hero-text .p {
+        margin-top: 15%;
+    }
+    .learn-more {
+        margin-top: 10%;
+    }
 }
 @media screen and (max-width: 767px) {
     .header {
@@ -132,9 +161,9 @@
         text-align: center;
     }
     .learn-more button {
-      display: flex;
-      position:sticky;
-      margin: auto;
+        display: flex;
+        position:sticky;
+        margin: auto;
     }
     button {
         
@@ -153,14 +182,9 @@
     }
     .svg {
         list-style: none;
-        display:inline;
-    }
-    .svg .insert {
-        align-items: center;
-        display: flex;
-        width: 100%;
-        margin-top: 70px;
-        position: sticky;
+        display:flex:inline-flex;
+        align-content: center;
+        margin-top: 20%;
     }
 }
 /*breakpoints
