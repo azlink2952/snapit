@@ -131,8 +131,13 @@
         
         text-align: center;
     }
-    .learn-more  {
-       padding-left: 180px;
+    .learn-more button {
+      display: flex;
+      position:sticky;
+      margin: auto;
+    }
+    button {
+        
     }
     .hero-text .h1 {
         width: 100%;
@@ -153,6 +158,7 @@
         align-items: center;
         flex-wrap: wrap-reverse;
         width: 100%;
+        margin-top: 7a0px;
     }
 }
 /*breakpoints
