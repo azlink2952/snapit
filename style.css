@@ -165,6 +165,7 @@
     .hero-section .hero-text{
         
         text-align: center;
+        width: 100%;
     }
     .learn-more button {
         display: flex;
@@ -190,6 +191,7 @@
         display:flex:inline-flex;
         align-content: center;
         margin-top: 5%;
+        width: 100%;
     }
     .hero-section .hero-image {
         display: none;
@@ -199,6 +201,7 @@
         width: 100%;
         align-content: flex-end;
         margin-bottom: 10%;
+        align-content: center;
     }
 }
 
