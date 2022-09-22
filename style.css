@@ -169,7 +169,7 @@ section p{
 		height: 100vh;
 		background: white;
 		top: 70px;
-		right: -120%;
+		right: -100%;
 		text-align: start;
 		transition: all .5s;
 	}
@@ -202,8 +202,8 @@ section p{
             justify-content: center;
         }
     .hero-section .hero-text {
-        width: 50%;
-        align-items: center;
+        width: 40%;
+        text-align: center;
         
     }
     .hero-section .h1{
@@ -220,14 +220,14 @@ section p{
     .hero-text .h1 {
         width: 100%;
         font-size: 35px;
-        align-items: center;
+       text-align: center;
         font-family: calibri;
     }
     .hero-text .p {
         width: 100%;
         font-size: 20px;
         font-family: calibri;
-        align-items: center;
+        text-align: center;
         margin-top: 5%;
         margin-bottom: 40px;
     }
@@ -247,9 +247,9 @@ section p{
     }
     .hero-section .hero-image2 {
         display:block;
-        width: 50%;
+        width: 100%;
         margin-bottom: 10%;
-        align-self: center;
+        text-align: center;
     }
 }
 
