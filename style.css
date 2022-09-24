@@ -7,6 +7,7 @@ nav {
     background: white;
     height: 60px;
     width: 100%;
+    font-family: calibri;
 }
 div .logo {
     line-height: 60px;
@@ -26,7 +27,6 @@ nav ul li a {
     color: black;
     font-size: 17px;
     padding: 5px 10px;
-    text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
 }
@@ -34,12 +34,33 @@ a.active a:hover {
     background: #0d2047;
     transition: .5s;
 }
+.menu {
+    padding-left: 40%;
+    padding-top: 0.2%;
+    float: left;
+    position: absolute;
+}
+.menu1 {
+    padding-left: 45%;
+    padding-top: 0.3%;
+    float: left;
+    position: absolute;
+}
 .checkbtn{
 	font-size: 50px;
 	color: black;
 	float: right;
-	line-height: 60px;
-	margin-right: 320px;
+	line-height: 40px;
+	margin-right: 60px;
+	cursor: pointer;
+	display: none;
+}
+.cancelbar{
+	font-size: 50px;
+	color: black;
+	float: right;
+	line-height: 40px;
+	margin-right: 20px;
 	cursor: pointer;
 	display: none;
 }
@@ -75,7 +96,7 @@ section p{
     padding-top: 150px;*/
 }
 .hero-section .h1 {
-    font-size: 6vw;
+    font-size: 6.1vw;
     font-family: calibri;
     font-weight:bolder;
     line-height: 90%;
@@ -86,7 +107,9 @@ section p{
     font-weight: bold;
     font-size: 20px;
     color: #737373;
-    margin-top: 40px;
+    margin-top: 50px;
+    width: 70%;
+    text-align: justify;
 }
 .hero-section .hero-image {
     width: calc(50% - 100px);
@@ -94,7 +117,7 @@ section p{
 
 .learn-more {
     height: 60px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .learn-more button {
     background-color: black;
@@ -106,13 +129,18 @@ section p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.4vw;
 }
 .insert li{
     list-style: none;
     display: inline;
     margin-right: 10px;
 }
+.svg1 {
+    margin-top: 100px;
+}
 .svg {
+    display: none;
     margin-top: 90px;
 }
 
@@ -160,19 +188,27 @@ section p{
         margin: 0%;
         padding: 0%;
     }
+    div .logo {
+        padding-left: 20px;
+    }
     .checkbtn{
 		display: block;
 	}
+    .cancelbar{
+        display: block ;
+        position: fixed;
+        padding-left: 60%;
+    }
 	ul{
 		position: fixed;
 		width: 80%;
 		height: 100vh;
 		background: white;
-		top: 70px;
+		top: 0px;
 		right: -100%;
 		text-align: start;
 		transition: all .5s;
-	}
+    }
 	nav ul li{
 		display: block;
 		margin: 50px 0;
@@ -202,7 +238,7 @@ section p{
             justify-content: center;
         }
     .hero-section .hero-text {
-        width: 40%;
+        width: 100%;
         text-align: center;
         
     }
@@ -216,38 +252,38 @@ section p{
         margin: auto;
         font-size: 20px;
         margin-top: -5%;
+        margin-left: 57%;
     }
     .hero-text .h1 {
         width: 100%;
-        font-size: 35px;
+        font-size: 70px;
        text-align: center;
         font-family: calibri;
+        padding-left: 28%;
     }
     .hero-text .p {
-        width: 100%;
-        font-size: 20px;
+        width: 85%;
+        font-size: 25px;
         font-family: calibri;
         text-align: center;
         margin-top: 5%;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
+        padding-left: 40%;
+    }
+    .svg1 {
+        display: none;
     }
     .svg{
         list-style: none;
         display:inline;
-        text-align: center;
-        margin: auto;
-        margin-top: 10%;
-        width: 100%;
-        line-height: 15;
-        
-        
-    }
+        font-size: 20vw;
+    }   
     .hero-section .hero-image {
         display: none;
     }
     .hero-section .hero-image2 {
         display:block;
-        width: 100%;
+        width: 40%;
         margin-bottom: 10%;
         text-align: center;
     }
