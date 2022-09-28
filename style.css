@@ -22,9 +22,12 @@ nav ul li {
     display: inline-block;
     line-height: 20px;
     margin: 0 5px;
+    width: 120px;
+    text-align: center;
+    position: relative;
 }
 nav ul li a {
-    color: black;
+    color: #737373;
     font-size: 17px;
     padding: 5px 10px;
     font-weight: bold;
@@ -33,6 +36,14 @@ nav ul li a {
 a.active a:hover {
     background: #0d2047;
     transition: .5s;
+    
+}
+nav ul li:hover {
+    background-color:;
+    border-radius: 3px;
+}
+a:hover{
+    color: black;
 }
 .menu {
     padding-left: 40%;
@@ -47,33 +58,33 @@ a.active a:hover {
     position: absolute;
 }
 .checkbtn{
-	font-size: 50px;
-	color: black;
-	float: right;
-	line-height: 40px;
-	margin-right: 60px;
-	cursor: pointer;
-	display: none;
+    font-size: 50px;
+    color: black;
+    float: right;
+    line-height: 40px;
+    margin-right: 60px;
+    cursor: pointer;
+    display: none;
 }
 .cancelbar{
-	font-size: 50px;
-	color: black;
-	float: right;
-	line-height: 40px;
-	margin-right: 20px;
-	cursor: pointer;
-	display: none;
+    font-size: 50px;
+    color: black;
+    float: right;
+    line-height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
 }
 #check {
     display: none;
 }
 section{
-	height: calc(100vh - 60px);
+    height: calc(100vh - 60px);
 }
 section p{
-	padding: 20px;
-	line-height: 40px;
-	text-align: justify;
+    padding: 20px;
+    line-height: 40px;
+    text-align: justify;
 }
 
 .register {
@@ -143,7 +154,78 @@ section p{
     display: none;
     margin-top: 90px;
 }
-
+.sub-menu-1 {
+    display: none;
+}
+.sub-menu-2 {
+    display: none;
+}
+nav ul li:hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background: whitesmoke;
+    margin-top: 30px;
+    margin-left: -10px;
+    width: 150px;
+    box-shadow: 5px 5px 40px 5px #dedddd;
+}
+nav ul li :hover .sub-menu-1 ul{
+    display: block;
+    margin: 5px;
+    text-align: justify;
+}
+nav ul li :hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: none;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.fa-solid {
+    float: left;
+    margin-top: 7px;
+    color: purple;
+}
+.fa-bell {
+    float: left;
+    margin-top: 7%;
+    color: rgb(199, 156, 16);
+}
+.fa-calendar-day {
+    float: left;
+    margin-top: 7%;
+    color: rgb(9, 122, 196);
+}.fa-sharp {
+    float: left;
+    margin-top: 7%;
+    color: rgb(101, 8, 241);
+}
+nav ul li:hover .sub-menu-2{
+    display:block;
+    position:absolute;
+    background: whitesmoke;
+    margin-top: 30px;
+    margin-left: -15px;
+    width: 150px;
+    box-shadow: 5px 5px 40px 5px #dfdddd;
+}
+nav ul li :hover .sub-menu-2 ul{
+    display: block;
+    margin: 5px;
+    text-align: justify;
+}
+nav ul li :hover .sub-menu-2 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+a{
+    float: left;
+}
 @media screen and (max-width: 1279px) {
     .logo {
         margin-right: 40px;
@@ -157,7 +239,7 @@ section p{
         
     }
     .header-menu{
-            margin-left: 40%;
+        margin-left: 40%;
     }
     .svg {
         display: flexbox;
@@ -182,6 +264,90 @@ section p{
     .hero-section .hero-image {
         display: block;
     }
+    .menu {
+        padding-left: 20%;
+        padding-top: 0.2%;
+        float: left;
+        position: absolute;
+    }
+    .menu1 {
+        padding-left: 25%;
+        padding-top: 0.3%;
+        float: left;
+        position: absolute;
+    }
+    .sub-menu-1 {
+        display: none;
+    }
+    .sub-menu-2 {
+        display: none;
+    }
+    nav ul li:hover .sub-menu-1{
+        display:block;
+        position:absolute;
+        background: whitesmoke;
+        margin-top: 30px;
+        margin-left: -10px;
+        width: 150px;
+        box-shadow: 5px 5px 40px 5px #dedddd;
+    }
+    nav ul li :hover .sub-menu-1 ul{
+        display: block;
+        margin: 5px;
+        text-align: justify;
+    }
+    nav ul li :hover .sub-menu-1 ul li{
+        width: 100px;
+        padding: 10px;
+        border-bottom: none;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    .fa-solid {
+        float: left;
+        margin-top: 7px;
+        color: purple;
+    }
+    .fa-bell {
+        float: left;
+        margin-top: 7%;
+        color: rgb(199, 156, 16);
+    }
+    .fa-calendar-day {
+        float: left;
+        margin-top: 7%;
+        color: rgb(9, 122, 196);
+    }.fa-sharp {
+        float: left;
+        margin-top: 7%;
+        color: rgb(101, 8, 241);
+    }
+    nav ul li:hover .sub-menu-2{
+        display:block;
+        position:absolute;
+        background: whitesmoke;
+        margin-top: 30px;
+        margin-left: -15px;
+        width: 150px;
+        box-shadow: 5px 5px 40px 5px #dfdddd;
+    }
+    nav ul li :hover .sub-menu-2 ul{
+        display: block;
+        margin: 5px;
+        text-align: justify;
+    }
+    nav ul li :hover .sub-menu-2 ul li{
+        width: 100px;
+        padding: 10px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    a{
+        float: left;
+    }
 }
 @media screen and (max-width: 767px) {
     body {
@@ -192,41 +358,64 @@ section p{
         padding-left: 20px;
     }
     .checkbtn{
-		display: block;
-	}
+        display: block;
+    }
     .cancelbar{
         display: block ;
-        position: fixed;
         padding-left: 60%;
     }
-	ul{
-		position: fixed;
-		width: 80%;
-		height: 100vh;
-		background: white;
-		top: 0px;
-		right: -100%;
-		text-align: start;
-		transition: all .5s;
-    }
-	nav ul li{
-		display: block;
-		margin: 50px 0;
-		line-height: 30px;
-	}
-	nav ul li a{
-		font-size: 14px;
-		padding: 5px 10px;
-	}
-	a.active, a:hover{
-		background: none;
-		color: #0082e6;
-	}
-	#check:checked ~ ul{
-		right: 0;
-		transition: 
+    ul{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: white;
+        top: 0px;
+        right: -100%;
+        text-align: start;
+        transition: all .5s;
         
-	}
+    }
+    nav ul li{
+        display: block;
+        margin: 70px 0;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 40px;
+    }
+    nav ul li a{
+        font-size: 21px;
+        padding: 10px 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .menu{
+        margin-top: 250px;
+        margin-left: 55px;
+        float: left;
+       
+    }
+    .menu1{
+        margin-top: 140px;
+        margin-left: -200px;
+        float: left;
+        position: sticky;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .menu1 a {
+        font-size: 20px;
+    }
+    .register {
+        font-size: 15px;
+        border: #737373 solid;
+        padding: 2px 140px 4px 80px;
+        border-radius: 10px;
+        border-width: 2px;
+    }
+    #check:checked ~ ul{
+        right: 0;
+        transition: 
+    }
     .hero-section {
         flex-direction: column-reverse;
         padding: 0;
@@ -234,9 +423,9 @@ section p{
         margin-left: -300px;
     }
     .hero-section
-        {
-            justify-content: center;
-        }
+    {
+        justify-content: center;
+    }
     .hero-section .hero-text {
         width: 100%;
         text-align: center;
@@ -257,7 +446,7 @@ section p{
     .hero-text .h1 {
         width: 100%;
         font-size: 70px;
-       text-align: center;
+        text-align: center;
         font-family: calibri;
         padding-left: 28%;
     }
@@ -287,6 +476,68 @@ section p{
         margin-bottom: 10%;
         text-align: center;
     }
+    .sub-menu-1 {
+        display: none;
+    }
+    .sub-menu-2 {
+        display: none;
+    }
+    nav ul li:hover .sub-menu-1{
+        display:block;
+    }
+    nav ul li :hover .sub-menu-1 ul{
+        display: block;
+        text-align: justify;
+    }
+    nav ul li :hover .sub-menu-1 ul li{
+        width: 100px;
+        padding: 10px;
+        border-bottom: none;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    .fa-solid {
+        float: left;
+        margin-top: 7px;
+        color: purple;
+    }
+    .fa-bell {
+        float: left;
+        margin-top: 7%;
+        color: rgb(199, 156, 16);
+    }
+    .fa-calendar-day {
+        float: left;
+        margin-top: 7%;
+        color: rgb(9, 122, 196);
+    }.fa-sharp {
+        float: left;
+        margin-top: 7%;
+        color: rgb(101, 8, 241);
+    }
+    nav ul li:hover .sub-menu-2{
+        display:block;
+        position:absolute;
+        background: whitesmoke;
+        width: 100px;
+    }
+    nav ul li :hover .sub-menu-2 ul{
+        display: block;
+        margin: 5px;
+        text-align: justify;
+    }
+    nav ul li :hover .sub-menu-2 ul li{
+        width: 100px;
+        padding: 10px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    a{
+        float: left;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -296,6 +547,7 @@ section p{
     .hero-section .hero-image {
         display: block;
     }
+    
 }
 /*breakpoints
 mobile - 0 - 767px
