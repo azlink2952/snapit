@@ -89,7 +89,7 @@ section p{
 }
 
 .register {
-    font-size: 15px;
+    font-size: 5px;
     border: #737373 solid;
     padding: 2px 12px 4px 12px;
     border-radius: 10px;
@@ -365,6 +365,7 @@ a{
         padding: 0%;
     }
     div .logo {
+        margin-top: 7px;
         padding-left: 20px;
     }
     .checkbtn{
@@ -399,26 +400,28 @@ a{
         width: 100%;
     }
     .menu{
-        margin-top: 250px;
-        margin-left: 65px;
+        margin-top: 200px;
+        margin-left: 30px;
         float: left;
+        width: 100%;
        
     }
     .menu1{
-        margin-top: 140px;
-        margin-left: -150px;
+        margin-top: 40px;
+        margin-left: -30px;
         float: left;
         position: sticky;
-        font-size: 10px;
+        font-size: 0px;
         padding-top: 10px;
+        width: 100%;
     }
     .menu1 a {
-        font-size: 20px;
+        font-size: 15px;
     }
     .register {
-        font-size: 15px;
+        font-size: 5px;
         border: #737373 solid;
-        padding: 2px 100px 4px 30px;
+        padding: 0px 10px 4px 50px;
         border-radius: 10px;
         border-width: 2px;
     }
@@ -451,18 +454,18 @@ a{
         margin: auto;
         font-size: 20px;
         margin-top: -5%;
-        margin-left: 57%;
+        margin-left: 60%;
     }
     .hero-text .h1 {
         width: 100%;
-        font-size: 70px;
+        font-size: 50px;
         text-align: center;
         font-family: calibri;
-        padding-left: 28%;
+        padding-left: 42%;
     }
     .hero-text .p {
-        width: 85%;
-        font-size: 25px;
+        width: 100%;
+        font-size: 20px;
         font-family: calibri;
         text-align: center;
         margin-top: 5%;
@@ -475,15 +478,17 @@ a{
     .svg{
         list-style: none;
         display:inline;
-        font-size: 20vw;
+        padding-bottom: 10px;
     }   
     .hero-section .hero-image {
         display: none;
     }
     .hero-section .hero-image2 {
         display:block;
-        width: 40%;
-        margin-bottom: 10%;
+        width: 100%;
+        margin-top: -30px;
+        margin-bottom: 5%;
+        padding-left: 300px;
         text-align: center;
     }
     .sub-menu-1 {
