@@ -94,6 +94,7 @@ section p{
     padding: 2px 12px 4px 12px;
     border-radius: 10px;
     border-width: 2px;
+    font-size:15px;
 }
 .hero-section {
     display: flex;
@@ -267,6 +268,7 @@ a{
     }
     .learn-more {
         margin-top: 10%;
+        margin-bottom: 45px;
     }
     .hero-section .hero-image2 {
         display: none;
@@ -361,8 +363,9 @@ a{
 }
 @media screen and (max-width: 767px) {
     body {
-        margin: 0%;
-        padding: 0%;
+        margin: 0px 0px 100px 0px;
+        padding: 20px 0px 100px 0px;
+        width: 100%;
     }
     div .logo {
         margin-top: 7px;
@@ -452,13 +455,14 @@ a{
     .learn-more button {
         display: flex;
         margin: auto;
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: bolder;
         margin-top: -5%;
         margin-left: 60%;
     }
     .hero-text .h1 {
         width: 100%;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
         font-family: calibri;
         padding-left: 42%;
@@ -479,6 +483,9 @@ a{
         list-style: none;
         display:inline;
         padding-bottom: 10px;
+    }
+    .svg {
+        padding-bottom: 0px;
     }   
     .hero-section .hero-image {
         display: none;
